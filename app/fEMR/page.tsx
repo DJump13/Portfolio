@@ -1,0 +1,82 @@
+'use client';
+
+import ContactSection from '../components/ContactSection';
+import Image from 'next/image';
+
+export default function SimplePortfolio() {
+    return (
+        <main className="min-h-screen bg-gray-900 pt-12">
+            <section className="py-12 sm:py-20">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <a href="/" className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base">
+                        Back ←
+                    </a>
+                    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+                        <h2 className="text-xl sm:text-2xl font-bold text-white mb-6 sm:mb-8 text-center">fEMR</h2>
+                        <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
+                            Team fEMR is a nonprofit organization dedicated to providing continuity of care between short-term medical relief efforts in low resource settings all around the world.
+                            fEMR is a fast Electronic Medical Records (EMR) system for remote clinics who depend on speed and ease of use. 
+                            Being a global project, it is important the application supports as many languages as possible.
+                            Designed for use in areas without internet access, our team was in charge of implementing dynamic translation functionality to the existing interface,
+                            allowing for fast, offline translation of medical provider notes and input forms.
+                            Made changes to legacy Java code, implemented a local HTTP server to continually run a Python translation script
+                            using a neural machine translation (NMT) model for offline translation, and worked with another team to 
+                            redesign MySQL database schemas and tables to support dynamic translation.
+                        </p>
+                    </section>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+                        <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div className="aspect-video bg-gray-700 relative">
+                                <Image src='/femr.png' alt='fEMR' fill className="object-cover" />
+                            </div>
+                            <div className="p-4 sm:p-6">
+                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">fEMR GitHub</h3>
+                                <p className="text-sm sm:text-base text-gray-300 mb-4">
+                                    TODO
+                                </p>
+                                <div className="flex gap-2">
+                                    <a target='_blank' href="https://github.com/FEMR/femr" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+                                        View GitHub →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div className="aspect-video bg-gray-700 relative">
+                                <Image src='/CSC406ProjectDeliverySlide.jpg' alt='fEMR' fill className="object-cover" />
+                            </div>
+                            <div className="p-4 sm:p-6">
+                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Project Delivery</h3>
+                                <p className="text-sm sm:text-base text-gray-300 mb-4">
+                                    TODO
+                                </p>
+                                <div className="flex gap-2">
+                                    <a target='_blank' href="https://docs.google.com/presentation/d/1-IMtSWZpbOOl1yKjBK_efzkHf8i4N1Ov04TycMvytEY/edit?usp=sharing" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+                                        View Project Delivery →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+                            <div className="aspect-video bg-gray-700 relative">
+                                <Image src='/tEMRTechSpecs.jpg' alt='fEMR' fill className="object-cover" />
+                            </div>
+                            <div className="p-4 sm:p-6">
+                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Technical Specifications</h3>
+                                <p className="text-sm sm:text-base text-gray-300 mb-4">
+                                    TODO
+                                </p>
+                                <div className="flex gap-2">
+                                    <a target='_blank' href="https://docs.google.com/document/d/1AS6XkQ6hVSchs4U6-kzH_3Bnd-4e7Yhkx1xiuHbruQs/edit?usp=sharing" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+                                        View Tech Specs →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <ContactSection />
+        </main>
+    );
+}
