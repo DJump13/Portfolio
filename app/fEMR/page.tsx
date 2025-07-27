@@ -43,37 +43,35 @@ export default function SimplePortfolio() {
                         </div>
                         <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                             <div className="aspect-video bg-gray-700 relative">
-                                <Image src='/CSC406ProjectDeliverySlide.jpg' alt='fEMR' fill className="object-cover" />
+                                <embed src="/femr.pdf" width="400" height="375" 
+                                    type="application/pdf"/>
                             </div>
                             <div className="p-4 sm:p-6">
                                 <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Project Delivery</h3>
-                                <p className="text-sm sm:text-base text-gray-300 mb-4">
-                                    TODO
-                                </p>
-                                <div className="flex gap-2">
-                                    <a target='_blank' href="https://docs.google.com/presentation/d/1-IMtSWZpbOOl1yKjBK_efzkHf8i4N1Ov04TycMvytEY/edit?usp=sharing" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
-                                        View Project Delivery →
-                                    </a>
-                                </div>
                             </div>
                         </div>
                         <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                             <div className="aspect-video bg-gray-700 relative">
-                                <Image src='/tEMRTechSpecs.jpg' alt='fEMR' fill className="object-cover" />
+                                <embed src="/temr.pdf" width="400" height="375" 
+                                    type="application/pdf"/>
                             </div>
                             <div className="p-4 sm:p-6">
                                 <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Technical Specifications</h3>
-                                <p className="text-sm sm:text-base text-gray-300 mb-4">
-                                    TODO
-                                </p>
-                                <div className="flex gap-2">
-                                    <a target='_blank' href="https://docs.google.com/document/d/1AS6XkQ6hVSchs4U6-kzH_3Bnd-4e7Yhkx1xiuHbruQs/edit?usp=sharing" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
-                                        View Tech Specs →
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
+                    <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+                        <h3 className="text-xl sm:text-2xl font-bold text-white mb-6 sm:mb-8 text-center">Video Demos</h3>
+                    </section>
+                    <div className="flex flex-row justify-center items-center">
+                        <iframe width="800" height="450" src="https://docs.google.com/file/d/1u5q3rJstJdy6SAyAOP7Mk8fTrE7x9LMq/preview"/>
+                        
+                    </div>
+                    <br/>
+                    <div className="flex flex-row justify-center items-center">
+                        <iframe width="800" height="450" src="https://docs.google.com/file/d/1KUlhkrq0jroK9Fxg_WL0697XU9FyBgfw/preview"/>
+                    </div>
+                    
                 </div>
             </section>
             <ContactSection />

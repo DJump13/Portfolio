@@ -17,7 +17,7 @@ export default function SimplePortfolio() {
                             This project is a rudimentary version of the training mode in the video game Rocket League. 
                             The game involves playing soccer in an enclosed field using a car that the player controls. 
                             The training mode of this game puts the player’s car in an empty field alone with a ball that can be scored in either goal. 
-                            My program was an attempt to recreate this aspect of the game. 
+                            My program was an attempt to recreate this aspect of the game using C++ and OpenGL. 
                         </p>
                     </section>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
@@ -37,20 +37,14 @@ export default function SimplePortfolio() {
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                             <div className="aspect-video bg-gray-700 relative">
-                                <Image src='/rlprojectdelivery.jpg' alt='fEMR' fill className="object-cover" />
+                                <embed src="/rl.pdf" width="400" height="375" 
+                                    type="application/pdf"/>
                             </div>
                             <div className="p-4 sm:p-6">
                                 <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Project Delivery</h3>
-                                <p className="text-sm sm:text-base text-gray-300 mb-4">
-                                    TODO
-                                </p>
-                                <div className="flex gap-2">
-                                    <a target='_blank' href="https://docs.google.com/document/d/1zySSTr8tJAmTQnxZmseDzwjWEfGPIoHMjOL5oyzho4E/edit?usp=sharing" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
-                                        View Project Delivery →
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
