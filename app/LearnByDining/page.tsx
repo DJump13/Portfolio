@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import ContactSection from '../components/ContactSection';
 import Image from 'next/image';
 
@@ -8,9 +9,9 @@ export default function SimplePortfolio() {
         <main className="min-h-screen bg-gray-900 pt-12">
             <section className="py-12 sm:py-20">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <a href="/" className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base">
+                    <Link href="/" className="text-blue-600 hover:text-blue-800 font-medium text-sm sm:text-base">
                         Back ←
-                    </a>
+                    </Link>
                     <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
                         <h2 className="text-xl sm:text-2xl font-bold text-white mb-6 sm:mb-8 text-center">Learn By Dining</h2>
                         <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
@@ -34,9 +35,9 @@ export default function SimplePortfolio() {
                                     TODO
                                 </p>
                                 <div className="flex gap-2">
-                                    <a target='_blank' href="https://github.com/domdavidson251/307" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+                                    <Link target='_blank' href="https://github.com/domdavidson251/307" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
                                         View GitHub →
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
