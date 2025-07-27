@@ -53,7 +53,7 @@ export default function SimplePortfolio() {
                         </div>
                         <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                             <div className="aspect-video bg-gray-700 relative">
-                                <embed src="/temr.pdf" width="400" height="375" 
+                                <embed src="/tEMR.pdf" width="400" height="375" 
                                     type="application/pdf"/>
                             </div>
                             <div className="p-4 sm:p-6">
