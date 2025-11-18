@@ -19,6 +19,10 @@ export default function SimplePortfolio() {
                             The game involves playing soccer in an enclosed field using a car that the player controls. 
                             The training mode of this game puts the player’s car in an empty field alone with a ball that can be scored in either goal. 
                             My program was an attempt to recreate this aspect of the game using C++ and OpenGL. 
+
+                            The main requirement for this project was to include a movable camera around a virtual landscape with at least one moving component.
+                            I wanted to do something unique and since I missed being able to play Rocket League while I was away from home,
+                            I decided to make my own simplified version that still satisfied the project checklist.
                         </p>
                     </section>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
@@ -29,7 +33,7 @@ export default function SimplePortfolio() {
                             <div className="p-4 sm:p-6">
                                 <h3 className="text-base sm:text-lg font-semibold text-white mb-2">GitHub</h3>
                                 <p className="text-sm sm:text-base text-gray-300 mb-4">
-                                    TODO
+                                    Rocket League Simulator Project Repository
                                 </p>
                                 <div className="flex gap-2">
                                     <Link target='_blank' href="https://github.com/mork-cal-poly/project3-DJump13" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
