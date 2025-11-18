@@ -19,7 +19,8 @@ export default function SimplePortfolio() {
                             The game involves playing soccer in an enclosed field using a car that the player controls. 
                             The training mode of this game puts the player’s car in an empty field alone with a ball that can be scored in either goal. 
                             My program was an attempt to recreate this aspect of the game using C++ and OpenGL. 
-
+                        </p>
+                        <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
                             The main requirement for this project was to include a movable camera around a virtual landscape with at least one moving component.
                             I wanted to do something unique and since I missed being able to play Rocket League while I was away from home,
                             I decided to make my own simplified version that still satisfied the project checklist.
