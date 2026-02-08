@@ -29,10 +29,7 @@ export default function SimplePortfolio() {
                                 <Image src='/wb1.png' alt='windborne tracker' fill className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-6">
-                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Windborne Weather Balloon Tracker</h3>
-                                <p className="text-sm sm:text-base text-gray-300 mb-4">
-                                    TODO
-                                </p>
+                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Windborne Tracker GitHub</h3>
                                 <div className="flex gap-2">
                                     <Link target='_blank' href="https://github.com/FEMR/femr" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
                                         View GitHub →
@@ -42,11 +39,15 @@ export default function SimplePortfolio() {
                         </div>
                         <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
                             <div className="aspect-video bg-gray-700 relative">
-                                <embed src="/femr.pdf" width="400" height="375" 
-                                    type="application/pdf"/>
+                                <Image src='/wb1.png' alt='windborne tracker' fill className="object-cover" />
                             </div>
                             <div className="p-4 sm:p-6">
-                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Project Delivery</h3>
+                                <h3 className="text-base sm:text-lg font-semibold text-white mb-2">Windborne Weather Balloon Tracker</h3>
+                                <div className="flex gap-2">
+                                    <Link target='_blank' href="https://github.com/FEMR/femr" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
+                                        View Website →
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
