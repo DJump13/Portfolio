@@ -46,8 +46,7 @@ export default function ProjectsSection() {
 						<div className="p-4 sm:p-6">
 							<h3 className="text-base sm:text-lg font-semibold text-white mb-2">Windborne Weather Balloon Tracker</h3>
 							<p className="text-sm sm:text-base text-gray-300 mb-4">
-								Real-time 3D web visualization of Windborne weather balloon telemetry, including 24-hour trajectories 
-								and live UV index data, using JavaScript and WebGL (Three.js).
+								Real-time 3D web visualization of Windborne weather balloon telemetry using JavaScript and WebGL (Three.js).
 							</p>
 							<div className="flex gap-2">
 								<Link href="/Windborne" className="text-blue-400 hover:text-blue-300 font-medium text-sm sm:text-base">
