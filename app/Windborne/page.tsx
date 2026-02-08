@@ -19,7 +19,7 @@ export default function SimplePortfolio() {
                             and WebGL (Three.js). The system ingests live and historical telemetry data, converts geospatial latitude, longitude, 
                             and altitude into 3D Cartesian coordinates, and renders rolling 24-hour trajectory paths for multiple balloons. 
                             Integrated external APIs to fetch location-based UV index data and synchronize it with live positional updates, 
-                            enabling accurate, time-aware environmental visualization. The project emphasizes efficient data transformation, 
+                            enabling accurate, time-aware environmental visualization. This project emphasizes efficient data transformation, 
                             real-time rendering, and scalable handling of continuously updating geospatial datasets.
                         </p>
                     </section>
